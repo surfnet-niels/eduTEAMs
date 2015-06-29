@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Use of this service is subject to the Terms of Use at https://www.eduteams.org/tos-->
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" validUntil="2016-03-21T10:05:21Z" entityID="https://engine.t.eduteams.org/authentication/sp/metadata" ID="CORTO082ec7ec40a65bc47938196a91d8897420749432">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#CORTO082ec7ec40a65bc47938196a91d8897420749432">
+    <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    </ds:Transforms>
+    <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <ds:DigestValue>YB+O8lPqdHiySDiaSSmk6IkteXo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>YkWYbEX+hArFw05kPRJ2lOu20ds20fRAZ0oqIVDxLsuhimTTcc9UdaPHkge/79YmwQtMw277gDOHZ9y0FgroOO7vUCJkoxFWWGfeQF1Sn6tFgiyh9t/OM63jeTb22MwviGjXuAyArxGp+7aRlivy3PRF4Yknjg1xsrNua9RlOmMJNfapL2qup3JhfOl372T0V1AodDl4HkPsGDHWPoyVghNhzxN0wKCRsCNARKDVERjWjKNJBDfZFgQdhLcqnpOmDAChiw+hak0MvLuFo4rIBYLvqwrrHXoJL15YJtexPBOtcwRdJoEPXGH1CBZMRA537Vg+8RlSmJ/M2Cya2021ew==</ds:SignatureValue>
+<ds:KeyInfo>
+    <ds:X509Data>
+        <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAKLfYvUCzDiIMA0GCSqGSIb3DQEBBQUAMEYxDzANBgNVBAMMBkVuZ2luZTERMA8GA1UECwwIU2VydmljZXMxEzARBgNVBAoMCk9wZW5Db25leHQxCzAJBgNVBAYTAk5MMB4XDTE0MTEyMDEyNDIzNFoXDTI0MTExOTEyNDIzNFowRjEPMA0GA1UEAwwGRW5naW5lMREwDwYDVQQLDAhTZXJ2aWNlczETMBEGA1UECgwKT3BlbkNvbmV4dDELMAkGA1UEBhMCTkwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDckyal1SMYA5QrT60DUPh+TgH9YTMkRtEEJoZekZiKbBN2DhrRu8w7t/0WODA6do52hCRBteTqxGfScYHXBQhPg0rmXDpJV80lULHcjwpPpic+Yn/yqfTUafuRTbEyQQYcI/F1dQwSS5cdq+BUizfebc2Uu3wEfRroIdc9VG8cQGbbfPCXpXDnf0C1/SpOP6+tsXNL++l7c8byCtGlHIAeUgUaWu+TdwKrge2sKdUOsg3sG19EPxY5++7L9mJ60z8TbalwQ01sDghyQSYLKvmeu2nQz54pJy+5XIjNyxO/MZTOslXpb7EFkGdFkTWN4yEe2szXE+1rz+55vRelB0lVAgMBAAGjUDBOMB0GA1UdDgQWBBT7toWKnUR3TMxlbdkx4VqeCsZV6DAfBgNVHSMEGDAWgBT7toWKnUR3TMxlbdkx4VqeCsZV6DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAR6HfkiUPW9tDl2GkPnpDsnMlfJHmWL+NZQfi98YMln59RiAy/5x+c5XE0Y0xcRJ26wNtJT365L4yhqgwIr3UNk8MCJa9fv2agWfXnTjFSZxg8fq1eRyAXOetfgxAjW9wk+c/Icx6RhiNAOGRdaKWBUYrN/lPn/SbPcFwjeezL4RtrsWzWyH7j9BXCQ38swORop2sYaM3tKsQrAosqTwqQLvN6hdETmf4V3bA5SRwMrmR4e5WKW2YWZdgDXKCdFNvWrHp5mTnt7vTl+yt+8EqRl0mqGAdRy28AgU0AyERc7nibML228z7XlLuogeXq1Zp3G4I7NXlpIDDfo/n8VoVj</ds:X509Certificate>
+    </ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true">
+    <md:Extensions>
+        <mdui:UIInfo>
+            <mdui:DisplayName xml:lang="nl">eduTEAMs (Test)</mdui:DisplayName>
+            <mdui:DisplayName xml:lang="en">eduTEAMs (Test)</mdui:DisplayName>
+            <mdui:Description xml:lang="nl">eduTEAMs is een dienst voor het aanmaken en beheren van groepen. De dienst is vrij beschikbaar voor alle gebruikers van Identity Providers in de eduGAIN community</mdui:Description>
+            <mdui:Description xml:lang="en">eduTEAMs is a service for creating and managing groups that can be used for Autherization. This TEST instance is only available to specific Identity Providers.</mdui:Description>
+	
+            <mdui:Logo height="250" width="250">https://static.t.eduteams.org/media/eduteams_logo_250x250.jpg</mdui:Logo>
+	    <mdui:PrivacyStatementURL xml:lang="en">https://www.eduteams.org/privacypolicy</mdui:PrivacyStatementURL>
+        </mdui:UIInfo>
+    </md:Extensions>
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing">
+    <ds:KeyInfo>
+        <ds:X509Data>
+            <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAKLfYvUCzDiIMA0GCSqGSIb3DQEBBQUAMEYxDzANBgNVBAMMBkVuZ2luZTERMA8GA1UECwwIU2VydmljZXMxEzARBgNVBAoMCk9wZW5Db25leHQxCzAJBgNVBAYTAk5MMB4XDTE0MTEyMDEyNDIzNFoXDTI0MTExOTEyNDIzNFowRjEPMA0GA1UEAwwGRW5naW5lMREwDwYDVQQLDAhTZXJ2aWNlczETMBEGA1UECgwKT3BlbkNvbmV4dDELMAkGA1UEBhMCTkwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDckyal1SMYA5QrT60DUPh+TgH9YTMkRtEEJoZekZiKbBN2DhrRu8w7t/0WODA6do52hCRBteTqxGfScYHXBQhPg0rmXDpJV80lULHcjwpPpic+Yn/yqfTUafuRTbEyQQYcI/F1dQwSS5cdq+BUizfebc2Uu3wEfRroIdc9VG8cQGbbfPCXpXDnf0C1/SpOP6+tsXNL++l7c8byCtGlHIAeUgUaWu+TdwKrge2sKdUOsg3sG19EPxY5++7L9mJ60z8TbalwQ01sDghyQSYLKvmeu2nQz54pJy+5XIjNyxO/MZTOslXpb7EFkGdFkTWN4yEe2szXE+1rz+55vRelB0lVAgMBAAGjUDBOMB0GA1UdDgQWBBT7toWKnUR3TMxlbdkx4VqeCsZV6DAfBgNVHSMEGDAWgBT7toWKnUR3TMxlbdkx4VqeCsZV6DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAR6HfkiUPW9tDl2GkPnpDsnMlfJHmWL+NZQfi98YMln59RiAy/5x+c5XE0Y0xcRJ26wNtJT365L4yhqgwIr3UNk8MCJa9fv2agWfXnTjFSZxg8fq1eRyAXOetfgxAjW9wk+c/Icx6RhiNAOGRdaKWBUYrN/lPn/SbPcFwjeezL4RtrsWzWyH7j9BXCQ38swORop2sYaM3tKsQrAosqTwqQLvN6hdETmf4V3bA5SRwMrmR4e5WKW2YWZdgDXKCdFNvWrHp5mTnt7vTl+yt+8EqRl0mqGAdRy28AgU0AyERc7nibML228z7XlLuogeXq1Zp3G4I7NXlpIDDfo/n8VoVj</ds:X509Certificate>
+        </ds:X509Data>
+    </ds:KeyInfo>
+</md:KeyDescriptor>
+      <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="encryption">
+        <ds:KeyInfo>
+        <ds:X509Data>
+            <ds:X509Certificate>MIIDXzCCAkegAwIBAgIJAKLfYvUCzDiIMA0GCSqGSIb3DQEBBQUAMEYxDzANBgNVBAMMBkVuZ2luZTERMA8GA1UECwwIU2VydmljZXMxEzARBgNVBAoMCk9wZW5Db25leHQxCzAJBgNVBAYTAk5MMB4XDTE0MTEyMDEyNDIzNFoXDTI0MTExOTEyNDIzNFowRjEPMA0GA1UEAwwGRW5naW5lMREwDwYDVQQLDAhTZXJ2aWNlczETMBEGA1UECgwKT3BlbkNvbmV4dDELMAkGA1UEBhMCTkwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDckyal1SMYA5QrT60DUPh+TgH9YTMkRtEEJoZekZiKbBN2DhrRu8w7t/0WODA6do52hCRBteTqxGfScYHXBQhPg0rmXDpJV80lULHcjwpPpic+Yn/yqfTUafuRTbEyQQYcI/F1dQwSS5cdq+BUizfebc2Uu3wEfRroIdc9VG8cQGbbfPCXpXDnf0C1/SpOP6+tsXNL++l7c8byCtGlHIAeUgUaWu+TdwKrge2sKdUOsg3sG19EPxY5++7L9mJ60z8TbalwQ01sDghyQSYLKvmeu2nQz54pJy+5XIjNyxO/MZTOslXpb7EFkGdFkTWN4yEe2szXE+1rz+55vRelB0lVAgMBAAGjUDBOMB0GA1UdDgQWBBT7toWKnUR3TMxlbdkx4VqeCsZV6DAfBgNVHSMEGDAWgBT7toWKnUR3TMxlbdkx4VqeCsZV6DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAR6HfkiUPW9tDl2GkPnpDsnMlfJHmWL+NZQfi98YMln59RiAy/5x+c5XE0Y0xcRJ26wNtJT365L4yhqgwIr3UNk8MCJa9fv2agWfXnTjFSZxg8fq1eRyAXOetfgxAjW9wk+c/Icx6RhiNAOGRdaKWBUYrN/lPn/SbPcFwjeezL4RtrsWzWyH7j9BXCQ38swORop2sYaM3tKsQrAosqTwqQLvN6hdETmf4V3bA5SRwMrmR4e5WKW2YWZdgDXKCdFNvWrHp5mTnt7vTl+yt+8EqRl0mqGAdRy28AgU0AyERc7nibML228z7XlLuogeXq1Zp3G4I7NXlpIDDfo/n8VoVj</ds:X509Certificate>
+        </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://engine.t.eduteams.org/authentication/sp/consume-assertion" index="0"/>
+<md:AttributeConsumingService index="0">
+    <md:ServiceName xml:lang="nl">eduTEAMs (Test)</md:ServiceName>
+    <md:ServiceName xml:lang="en">eduTEAMs (Test)</md:ServiceName>
+    <md:ServiceDescription xml:lang="nl">eduTEAMs is een dienst voor het aanmaken en beheren van groepen. De dienst is vrij beschikbaar voor alle gebruikers van Identity Providers in de eduGAIN community. Dit is een TEST instance en is alleen beschikbaar voor specifieke Identity providers.</md:ServiceDescription>
+    <md:ServiceDescription xml:lang="en">eduTEAMs is a service for creating and managing groups that can be used for Autherization. This TEST instance is only available to specific Identity Providers.</md:ServiceDescription>
+    <md:RequestedAttribute FriendlyName="mail" Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"></md:RequestedAttribute>
+    <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"></md:RequestedAttribute>
+    <md:RequestedAttribute FriendlyName="eduPersonPrincipalName" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"></md:RequestedAttribute>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:ContactPerson contactType="technical">
+    <md:GivenName>eduTEAMs Tech</md:GivenName>
+    <md:SurName>Tech Support</md:SurName>
+    <md:EmailAddress>tech@eduteams.org</md:EmailAddress>
+</md:ContactPerson>
+<md:ContactPerson contactType="support">
+    <md:GivenName>Enduser Support</md:GivenName>
+    <md:SurName>eduTEAMs</md:SurName>
+    <md:EmailAddress>support@eduteams.org</md:EmailAddress>
+</md:ContactPerson>
+<md:ContactPerson contactType="administrative">
+    <md:GivenName>Admin Support</md:GivenName>
+    <md:SurName>eduTEAMs </md:SurName>
+    <md:EmailAddress>admin@eduteams.org</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>
+
+
